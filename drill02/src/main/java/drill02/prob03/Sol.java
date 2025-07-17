@@ -13,6 +13,8 @@ package drill02.prob03;
 public class Sol {
 
 	public static void main(String[] args) {
+		final double PI = 3.141592;
+		final int MAX_USERS = 1000;
 	}
 
 }

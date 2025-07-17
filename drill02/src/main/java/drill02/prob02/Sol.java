@@ -16,6 +16,11 @@ package drill02.prob02;
 public class Sol {
 
 	public static void main(String[] args) {
+		int age = 27;
+		float height = 175.5f;
+		boolean isStudent = true;
+		char grade = 'A';
+		String name = "김자바";
 	}
 
 }

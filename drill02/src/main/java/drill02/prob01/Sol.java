@@ -7,13 +7,20 @@ package drill02.prob01;
  * 
  * 1) int  2) first_name  3) 9items  4) $total  5) className  6) public
  * 
- * 정답:
+ * 정답: 2, 4, 5
  * 
  */
 
 public class Sol {
 
 	public static void main(String[] args) {
+		// int int = 0;
+		String first_name = "대혁";
+		// String 9items = "9 아이템";
+		int $total = 100;
+		String className = "Sol";
+		// String public = "퍼블릭";
+		
 	}
 
 }

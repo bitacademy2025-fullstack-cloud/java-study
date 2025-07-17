@@ -10,10 +10,22 @@ package drill02.prob06;
 public class Sol {
 
 	public static void main(String[] args) {
-		int count = "three";		
-		boolean isOn = 1;
-		char c = "A";
-		float f = 3.14;
+		// 정수형 리터럴 대입
+		// int count = "three";
+		int count = 3;
+		
+		// 불린형 리터털 대입
+		// boolean isOn = 1;
+		boolean isOn = false;
+
+		// 문자형 리터럴 대입	
+		// char c = "A";
+		char c = 'A';
+		
+		// 실수형 리터럴은 기본이 double, float형으로 대입됨을 명시
+		// float f = 3.14;
+		float f = 3.14f;
+		
 		String name = "Alice";
 		
 		System.out.println(count);
