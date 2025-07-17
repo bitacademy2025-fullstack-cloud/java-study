@@ -12,6 +12,10 @@ package drill04.prob03;
 public class Sol {
 
 	public static void main(String[] args) {
+		int i = 10;
+		while(1 <= i) {
+			System.out.print(i-- + " ");
+		}
 	}
 
 }

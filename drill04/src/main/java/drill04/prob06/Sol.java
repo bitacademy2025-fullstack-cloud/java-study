@@ -10,7 +10,16 @@ package drill04.prob06;
 public class Sol {
 
 	public static void main(String[] args) {
-	
+		int result = 1, i = 1;
+		
+		while(i <= 9) {
+			if(i % 2 != 0) {
+				result *= i;
+			}
+			i++;
+		}
+		
+		System.out.printf("곱 : %d", result);
 	}
 
 }
