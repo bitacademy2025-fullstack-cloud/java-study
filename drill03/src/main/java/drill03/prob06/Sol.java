@@ -16,8 +16,11 @@ public class Sol {
 		// boolean result1 = name == "admin";
 		// System.out.println(result1);
 		
-		boolean result2 = name.equals("admin");
-		System.out.println(result2);
+		if(name.equals("admin")) {
+			System.out.println("관리자입니다.");
+		} else {
+			System.out.println("일반 사용자입니다.");
+		}
 	}
 
 }

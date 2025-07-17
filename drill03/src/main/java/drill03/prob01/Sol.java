@@ -12,7 +12,14 @@ public class Sol {
 
 	public static void main(String[] args) {
 		int num = -12;
-		// if ~ else if ~ else로 구현
+		
+		if(num > 0){
+			System.out.println("양수");
+		} else if(num < 0) {
+			System.out.println("음수");
+		} else {
+			System.out.println("0");
+		}
 	}
 
 }
