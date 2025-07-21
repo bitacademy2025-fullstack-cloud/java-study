@@ -11,9 +11,17 @@ package drill04.prob08;
 public class Sol {
 
 	public static void main(String[] args) {
-		for(char c = 'A'; c <= 'Z'; c++) {
-			System.out.print(c);
-		}
+//		for(char c = 'A'; c <= 'Z'; c++) {
+//		}
+		
+
+		System.out.print("A");
+		System.out.print("\n");
+		System.out.print("B");
+
+		System.out.println("A");
+		System.out.print("A" + "\n");
+
 	}
 
 }
