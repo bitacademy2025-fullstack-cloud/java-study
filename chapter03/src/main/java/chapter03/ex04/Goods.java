@@ -6,6 +6,10 @@ public class Goods {
 	private int countStock;
 	private int countSold;
 
+	public int calcDiscountPrice(float percentage) {
+		return price - (int)(price * percentage);
+	}
+	
 	public void showInfo() {
 		System.out.println(
 			"상품이름:" + name +
@@ -14,7 +18,7 @@ public class Goods {
 			", 판매량: " + countSold
 		);
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -28,6 +32,9 @@ public class Goods {
 	}
 
 	public void setPrice(int price) {
+		if(price < 0) {
+			price = 0;
+		}
 		this.price = price;
 	}
 
