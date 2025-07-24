@@ -7,6 +7,6 @@ public class ProbMain {
 
 		workMode.service("낮");
 		workMode.service("밤");
-		bworkModease.service("오후"); 
+		workMode.service("오후"); 
 	}
 }
