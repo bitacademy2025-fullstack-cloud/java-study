@@ -5,8 +5,22 @@ public class Canvas {
 		point.show();
 	}
 	
-	public void drawColorPoint(ColorPoint colorPoint) {
-		colorPoint.show();
-	}
+//	public void drawColorPoint(ColorPoint colorPoint) {
+//		colorPoint.show();
+//	}
+
 	
+//	public void drawTriangle(Triangle triangle) {
+//		triangle.draw();
+//	}
+//	public void drawRectangle(Rectangle rectangle) {
+//		rectangle.draw();
+//	}
+//	public void drawCircle(Circle circle) {
+//		circle.draw();
+//	}
+
+	public void drawShape(Shape shape) {
+		shape.draw();
+	}
 }

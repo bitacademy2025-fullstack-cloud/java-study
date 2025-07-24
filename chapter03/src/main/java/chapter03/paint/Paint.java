@@ -17,7 +17,17 @@ public class Paint {
 		canvas.drawPoint(point2);
 		
 		ColorPoint point3 = new ColorPoint(50, 60, "red");
-		canvas.drawColorPoint(point3);
+		// canvas.drawColorPoint(point3);
+		canvas.drawPoint(point3);
+		
+		// canvas.drawTriangle(new Triangle());
+		canvas.drawShape(new Triangle());
+		
+		// canvas.drawRectnagle(new Rectngale());
+		canvas.drawShape(new Rectangle());
+		
+		// canvas.drawCircle(new Circle());
+		canvas.drawShape(new Circle());
 	}
 
 }
