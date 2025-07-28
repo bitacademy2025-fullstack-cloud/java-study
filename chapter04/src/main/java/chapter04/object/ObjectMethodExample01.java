@@ -10,7 +10,7 @@ public class ObjectMethodExample01 {
 		
 		System.out.println(goods.hashCode());	// address 기반의 해싱값
 												// address x
-												// reference 값 x
+												// reference값 x
 		System.out.println(goods.toString());   // getClass().getName() + "@" + hashCode() 
 		System.out.println(goods);
 		
