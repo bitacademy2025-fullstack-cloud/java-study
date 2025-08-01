@@ -9,11 +9,11 @@ public class LocalHost {
 		try {
 			InetAddress inetAddress = InetAddress.getLocalHost();
 			
-			String hostName = inetAddress.getHostName();
-			String hostIpAddress = inetAddress.getHostAddress();
+			String localhostName = inetAddress.getHostName();
+			String localhostIpAddress = inetAddress.getHostAddress();
 			
-			System.out.println(hostName);
-			System.out.println(hostIpAddress);
+			System.out.println(localhostName);
+			System.out.println(localhostIpAddress);
 			
 			byte[] IpAddresses = inetAddress.getAddress();
 			for(byte IpAddress : IpAddresses) {
