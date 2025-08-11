@@ -24,9 +24,13 @@
 		<module>exercise01</module>
 		<module>exercise02</module>
 		<module>chapter03</module>
+
+		<!--		
 		<module>drill06</module>
 		<module>exercise03</module>
 		<module>exercise04</module>
+		-->
+		
 		<module>chapter04</module>
 		<module>network</module>
 	</modules>
